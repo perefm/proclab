@@ -1,0 +1,851 @@
+TProcLab
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/Info.plist Info.plist
+cStripNIB /Users/xphere/CODE/proclab/English.lproj/MainMenu.nib
+cCopyStringsFile /Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cProcessPCH /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-dduwahtdvwxgapelphtfnjbwdxjz/ProcLab_Prefix.pch.pth ProcLab_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch.pth ProcLab_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ayyjoogxhowvmudjqozmmgczejid/ProcLab_Prefix.pch.pth ProcLab_Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/main.o /Users/xphere/CODE/proclab/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/MainGUIControl.o /Users/xphere/CODE/proclab/MainGUIControl.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgen.o /Users/xphere/CODE/proclab/textgenlib/textgen.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgenlib.o /Users/xphere/CODE/proclab/textgenlib/textgenlib.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGGUIControl.o /Users/xphere/CODE/proclab/TGGUIControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlainControl.o /Users/xphere/CODE/proclab/TG_Controls/TGPlainControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textlib.o /Users/xphere/CODE/proclab/textgenlib/textlib.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znl.o /Users/xphere/CODE/proclab/textgenlib/znl.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znt.o /Users/xphere/CODE/proclab/textgenlib/znt.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/apple_font.o /Users/xphere/CODE/proclab/textgenlib/apple_font.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/file.o /Users/xphere/CODE/proclab/file.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tableview.o /Users/xphere/CODE/proclab/controls/tableview.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGCelularControl.o /Users/xphere/CODE/proclab/TG_Controls/TGCelularControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGNoiseControl.o /Users/xphere/CODE/proclab/TG_Controls/TGNoiseControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlasmaControl.o /Users/xphere/CODE/proclab/TG_Controls/TGPlasmaControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGBlobControl.o /Users/xphere/CODE/proclab/TG_Controls/TGBlobControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPerlinControl.o /Users/xphere/CODE/proclab/TG_Controls/TGPerlinControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tga.o /Users/xphere/CODE/proclab/libs/tga.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxCustomControl.o /Users/xphere/CODE/proclab/TG_Controls/TGEfxCustomControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxColorizeControl.o /Users/xphere/CODE/proclab/TG_Controls/TGEfxColorizeControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxGradBlurControl.o /Users/xphere/CODE/proclab/TG_Controls/TGEfxGradBlurControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/MacOS/ProcLab normal x86_64
+cTouch /Users/xphere/CODE/proclab/build/Debug/ProcLab.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000004FF015DA00000000000000AA
+t1341134298
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c000000005033E79E00000000000001E5
+t1345578910
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E34041F0000000000006560
+t1312031775
+s25952
+
+N/Users/xphere/CODE/proclab/English.lproj/InfoPlist.strings
+c0000000047FBCA2A000000000000005C
+t1207683626
+s92
+
+N/Users/xphere/CODE/proclab/English.lproj/MainMenu.nib
+c000000004F529A9500000000000000AA
+t1330813589
+s170
+
+N/Users/xphere/CODE/proclab/MainGUIControl.m
+c000000004A492981000000000000073F
+t1246308737
+s1855
+
+N/Users/xphere/CODE/proclab/ProcLab_Prefix.pch
+c00000000480A20D0000000000000008C
+t1208623312
+s140
+i<Cocoa/Cocoa.h>
+
+N/Users/xphere/CODE/proclab/TGGUIControl.mm
+c000000004F5299A3000000000000505D
+t1330813347
+s20573
+
+N/Users/xphere/CODE/proclab/TG_Controls/TGBlobControl.mm
+c000000004BC4E6C100000000000003D6
+t1271195329
+s982
+
+N/Users/xphere/CODE/proclab/TG_Controls/TGCelularControl.mm
+c000000004ACD04A800000000000004CD
+t1254950056
+s1229
+
+N/Users/xphere/CODE/proclab/TG_Controls/TGEfxColorizeControl.mm
+c000000004F4AB33100000000000004F1
+t1330295601
+s1265
+
+N/Users/xphere/CODE/proclab/TG_Controls/TGEfxCustomControl.mm
+c000000004F4A9CFA00000000000007D5
+t1330289914
+s2005
+
+N/Users/xphere/CODE/proclab/TG_Controls/TGEfxGradBlurControl.mm
+c000000004F5293FB000000000000032C
+t1330811899
+s812
+
+N/Users/xphere/CODE/proclab/TG_Controls/TGNoiseControl.mm
+c000000004A48E30E00000000000003C6
+t1246290702
+s966
+
+N/Users/xphere/CODE/proclab/TG_Controls/TGPerlinControl.mm
+c000000004C2E310600000000000003C5
+t1278095622
+s965
+
+N/Users/xphere/CODE/proclab/TG_Controls/TGPlainControl.mm
+c000000004A46958B00000000000003C7
+t1246139787
+s967
+
+N/Users/xphere/CODE/proclab/TG_Controls/TGPlasmaControl.mm
+c000000004F4AB2FB00000000000006C6
+t1330295547
+s1734
+
+N/Users/xphere/CODE/proclab/build/Debug/ProcLab.app
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/Info.plist
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/MacOS/ProcLab
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/Resources/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/Resources/English.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/MainGUIControl.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/ProcLab.LinkFileList
+c000000005033EF3B0000000000000873
+t1345580859
+s2163
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGBlobControl.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGCelularControl.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxColorizeControl.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxCustomControl.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxGradBlurControl.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGGUIControl.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGNoiseControl.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPerlinControl.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlainControl.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlasmaControl.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/apple_font.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/file.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tableview.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgen.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgenlib.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textlib.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tga.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znl.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znt.o
+t2
+s0
+
+N/Users/xphere/CODE/proclab/controls/tableview.mm
+c000000004F17591200000000000013E4
+t1326930194
+s5092
+
+N/Users/xphere/CODE/proclab/file.cpp
+c000000004BBE5F4500000000000002BE
+t1270767429
+s702
+
+N/Users/xphere/CODE/proclab/libs/tga.cpp
+c000000004CA85E7800000000000006DF
+t1286102648
+s1759
+
+N/Users/xphere/CODE/proclab/main.m
+c000000004A3027F600000000000000F5
+t1244669942
+s245
+
+N/Users/xphere/CODE/proclab/textgenlib/apple_font.mm
+c000000004A283FD3000000000000032B
+t1244151763
+s811
+
+N/Users/xphere/CODE/proclab/textgenlib/textgen.cpp
+c000000005033E6840000000000002212
+t1345578628
+s8722
+
+N/Users/xphere/CODE/proclab/textgenlib/textgenlib.cpp
+c000000004A3579260000000000000308
+t1245018406
+s776
+
+N/Users/xphere/CODE/proclab/textgenlib/textlib.cpp
+c000000004F5297610000000000005507
+t1330812769
+s21767
+
+N/Users/xphere/CODE/proclab/textgenlib/znl.cpp
+c000000004BC1ADF6000000000000123F
+t1270984182
+s4671
+
+N/Users/xphere/CODE/proclab/textgenlib/znt.cpp
+c000000004F5291B600000000000029CA
+t1330811318
+s10698
+
+N/var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ayyjoogxhowvmudjqozmmgczejid/ProcLab_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-dduwahtdvwxgapelphtfnjbwdxjz/ProcLab_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c000000004A3027F6000000000000033F
+t1244669942
+s831
+
+CBuild AST from /Users/xphere/CODE/proclab/MainGUIControl.m
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/TGGUIControl.mm
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/TG_Controls/TGBlobControl.mm
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/TG_Controls/TGCelularControl.mm
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/TG_Controls/TGEfxColorizeControl.mm
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/TG_Controls/TGEfxCustomControl.mm
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/TG_Controls/TGEfxGradBlurControl.mm
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/TG_Controls/TGNoiseControl.mm
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/TG_Controls/TGPerlinControl.mm
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/TG_Controls/TGPlainControl.mm
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/TG_Controls/TGPlasmaControl.mm
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/controls/tableview.mm
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/file.cpp
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/libs/tga.cpp
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/main.m
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/textgenlib/apple_font.mm
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/textgenlib/textgen.cpp
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/textgenlib/textgenlib.cpp
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/textgenlib/textlib.cpp
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/textgenlib/znl.cpp
+r0
+
+CBuild AST from /Users/xphere/CODE/proclab/textgenlib/znt.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8716a1bb26e4b541^3508dbbb26e4b541^---0#1#0#--18"Check dependencies36"4B2F716D-F86C-4666-8EDA-A6E203CBF57E-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/MainGUIControl.o /Users/xphere/CODE/proclab/MainGUIControl.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s367273661.663203
+e367273661.846036
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/MainGUIControl.o
+x/Users/xphere/CODE/proclab/MainGUIControl.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Compile /Users/xphere/CODE/proclab/MainGUIControl.m0beca9bd26e4b541^f2b0d8bd26e4b541^---0#0#0#-19%DVTDocumentLocation2@59"file://localhost/Users/xphere/CODE/proclab/MainGUIControl.m0000000000000000^2708"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/MainGUIControl.o MainGUIControl.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-dduwahtdvwxgapelphtfnjbwdxjz/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/MainGUIControl.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/MainGUIControl.dia -c /Users/xphere/CODE/proclab/MainGUIControl.m -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/MainGUIControl.o36"6289F13D-9707-40C3-9D32-1BCFD0FD0BB3-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGBlobControl.o /Users/xphere/CODE/proclab/TG_Controls/TGBlobControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273664.108471
+e367273664.432506
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGBlobControl.o
+x/Users/xphere/CODE/proclab/TG_Controls/TGBlobControl.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/TGBlobControl.mm:2:
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:
+o/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]
+o        IBOutlet id *_parent;
+o        ^
+o<built-in>:160:33: note: expanded from macro 'IBOutlet'
+o#define IBOutlet __attribute__((iboutlet))
+o                                ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/xphere/CODE/proclab/TG_Controls/TGBlobControl.mm14ec1bc026e4b541^acca6ec026e4b541^-512"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGBlobControl.mm:2:In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]        IBOutlet id *_parent;        ^<built-in>:160:33: note: expanded from macro 'IBOutlet'#define IBOutlet __attribute__((iboutlet))                                ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@70"Ivar with 'iboutlet' attribute must be an object type (invalid 'id *')-367273664#18446744073709551615#0#3(2@80"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGBlobControl.mm:2:-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@71"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGBlobControl.mm0000000000000000^1#8#1#8#34#0#21"Clang LLVM 1.0 Notice--2@82"In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/TGGUIControl.h0000000000000000^21#8#21#8#589#0#21"Clang LLVM 1.0 Notice--2@30"Expanded from macro 'IBOutlet'-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/%3Cbuilt-in%3E0000000000000000^159#32#159#32#4936#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@63"file://localhost/Users/xphere/CODE/proclab/controls/tableview.h0000000000000000^7#1#7#1#15#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@71"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGBlobControl.mm0000000000000000^2860"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGBlobControl.o TG_Controls/TGBlobControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGBlobControl.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGBlobControl.dia -c /Users/xphere/CODE/proclab/TG_Controls/TGBlobControl.mm -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGBlobControl.o36"38C9AE59-B6CA-4750-BC54-B6DDCF6AE1BC-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGCelularControl.o /Users/xphere/CODE/proclab/TG_Controls/TGCelularControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273663.613486
+e367273663.804074
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGCelularControl.o
+x/Users/xphere/CODE/proclab/TG_Controls/TGCelularControl.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/TGCelularControl.mm:2:
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:
+o/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]
+o        IBOutlet id *_parent;
+o        ^
+o<built-in>:160:33: note: expanded from macro 'IBOutlet'
+o#define IBOutlet __attribute__((iboutlet))
+o                                ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/xphere/CODE/proclab/TG_Controls/TGCelularControl.mm54399dbf26e4b541^740bd1bf26e4b541^-515"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGCelularControl.mm:2:In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]        IBOutlet id *_parent;        ^<built-in>:160:33: note: expanded from macro 'IBOutlet'#define IBOutlet __attribute__((iboutlet))                                ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@70"Ivar with 'iboutlet' attribute must be an object type (invalid 'id *')-367273663#18446744073709551615#0#3(2@83"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGCelularControl.mm:2:-367273663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@74"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGCelularControl.mm0000000000000000^1#8#1#8#37#0#21"Clang LLVM 1.0 Notice--2@82"In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:-367273663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/TGGUIControl.h0000000000000000^21#8#21#8#589#0#21"Clang LLVM 1.0 Notice--2@30"Expanded from macro 'IBOutlet'-367273663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/%3Cbuilt-in%3E0000000000000000^159#32#159#32#4936#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@63"file://localhost/Users/xphere/CODE/proclab/controls/tableview.h0000000000000000^7#1#7#1#15#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@74"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGCelularControl.mm0000000000000000^2878"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGCelularControl.o TG_Controls/TGCelularControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGCelularControl.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGCelularControl.dia -c /Users/xphere/CODE/proclab/TG_Controls/TGCelularControl.mm -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGCelularControl.o36"6D1EEB91-215C-4AD3-8C96-8C2784F64E8E-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxColorizeControl.o /Users/xphere/CODE/proclab/TG_Controls/TGEfxColorizeControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273664.479801
+e367273664.660731
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxColorizeControl.o
+x/Users/xphere/CODE/proclab/TG_Controls/TGEfxColorizeControl.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/TGEfxColorizeControl.mm:2:
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:
+o/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]
+o        IBOutlet id *_parent;
+o        ^
+o<built-in>:160:33: note: expanded from macro 'IBOutlet'
+o#define IBOutlet __attribute__((iboutlet))
+o                                ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/xphere/CODE/proclab/TG_Controls/TGEfxColorizeControl.mm33fd7ac026e4b541^c13ba9c026e4b541^-519"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGEfxColorizeControl.mm:2:In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]        IBOutlet id *_parent;        ^<built-in>:160:33: note: expanded from macro 'IBOutlet'#define IBOutlet __attribute__((iboutlet))                                ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@70"Ivar with 'iboutlet' attribute must be an object type (invalid 'id *')-367273664#18446744073709551615#0#3(2@87"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGEfxColorizeControl.mm:2:-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@78"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGEfxColorizeControl.mm0000000000000000^1#8#1#8#41#0#21"Clang LLVM 1.0 Notice--2@82"In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/TGGUIControl.h0000000000000000^21#8#21#8#589#0#21"Clang LLVM 1.0 Notice--2@30"Expanded from macro 'IBOutlet'-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/%3Cbuilt-in%3E0000000000000000^159#32#159#32#4936#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@63"file://localhost/Users/xphere/CODE/proclab/controls/tableview.h0000000000000000^7#1#7#1#15#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGEfxColorizeControl.mm0000000000000000^2902"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxColorizeControl.o TG_Controls/TGEfxColorizeControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxColorizeControl.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxColorizeControl.dia -c /Users/xphere/CODE/proclab/TG_Controls/TGEfxColorizeControl.mm -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxColorizeControl.o36"CEE76B24-CC31-4062-8402-26BB212BCA13-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxCustomControl.o /Users/xphere/CODE/proclab/TG_Controls/TGEfxCustomControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273664.433792
+e367273664.615266
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxCustomControl.o
+x/Users/xphere/CODE/proclab/TG_Controls/TGEfxCustomControl.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/TGEfxCustomControl.mm:2:
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:
+o/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]
+o        IBOutlet id *_parent;
+o        ^
+o<built-in>:160:33: note: expanded from macro 'IBOutlet'
+o#define IBOutlet __attribute__((iboutlet))
+o                                ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/xphere/CODE/proclab/TG_Controls/TGEfxCustomControl.mmb9376fc026e4b541^0b9b9dc026e4b541^-517"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGEfxCustomControl.mm:2:In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]        IBOutlet id *_parent;        ^<built-in>:160:33: note: expanded from macro 'IBOutlet'#define IBOutlet __attribute__((iboutlet))                                ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@70"Ivar with 'iboutlet' attribute must be an object type (invalid 'id *')-367273664#18446744073709551615#0#3(2@85"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGEfxCustomControl.mm:2:-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@76"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGEfxCustomControl.mm0000000000000000^1#8#1#8#39#0#21"Clang LLVM 1.0 Notice--2@82"In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/TGGUIControl.h0000000000000000^21#8#21#8#589#0#21"Clang LLVM 1.0 Notice--2@30"Expanded from macro 'IBOutlet'-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/%3Cbuilt-in%3E0000000000000000^159#32#159#32#4936#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@63"file://localhost/Users/xphere/CODE/proclab/controls/tableview.h0000000000000000^7#1#7#1#15#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@76"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGEfxCustomControl.mm0000000000000000^2890"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxCustomControl.o TG_Controls/TGEfxCustomControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxCustomControl.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxCustomControl.dia -c /Users/xphere/CODE/proclab/TG_Controls/TGEfxCustomControl.mm -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxCustomControl.o36"9E9B4216-74D1-42D7-911A-A5EBB1D80A28-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxGradBlurControl.o /Users/xphere/CODE/proclab/TG_Controls/TGEfxGradBlurControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273664.616757
+e367273664.766996
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxGradBlurControl.o
+x/Users/xphere/CODE/proclab/TG_Controls/TGEfxGradBlurControl.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/TGEfxGradBlurControl.mm:2:
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:
+o/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]
+o        IBOutlet id *_parent;
+o        ^
+o<built-in>:160:33: note: expanded from macro 'IBOutlet'
+o#define IBOutlet __attribute__((iboutlet))
+o                                ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/xphere/CODE/proclab/TG_Controls/TGEfxGradBlurControl.mmfa0a9ec026e4b541^49bec6c026e4b541^-519"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGEfxGradBlurControl.mm:2:In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]        IBOutlet id *_parent;        ^<built-in>:160:33: note: expanded from macro 'IBOutlet'#define IBOutlet __attribute__((iboutlet))                                ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@70"Ivar with 'iboutlet' attribute must be an object type (invalid 'id *')-367273664#18446744073709551615#0#3(2@87"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGEfxGradBlurControl.mm:2:-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@78"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGEfxGradBlurControl.mm0000000000000000^1#8#1#8#41#0#21"Clang LLVM 1.0 Notice--2@82"In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/TGGUIControl.h0000000000000000^21#8#21#8#589#0#21"Clang LLVM 1.0 Notice--2@30"Expanded from macro 'IBOutlet'-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/%3Cbuilt-in%3E0000000000000000^159#32#159#32#4936#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@63"file://localhost/Users/xphere/CODE/proclab/controls/tableview.h0000000000000000^7#1#7#1#15#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGEfxGradBlurControl.mm0000000000000000^2902"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxGradBlurControl.o TG_Controls/TGEfxGradBlurControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxGradBlurControl.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxGradBlurControl.dia -c /Users/xphere/CODE/proclab/TG_Controls/TGEfxGradBlurControl.mm -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGEfxGradBlurControl.o36"707CB636-E90F-406A-9EAB-4EA9595A9EC1-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGGUIControl.o /Users/xphere/CODE/proclab/TGGUIControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273662.308215
+e367273663.129317
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGGUIControl.o
+x/Users/xphere/CODE/proclab/TGGUIControl.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/xphere/CODE/proclab/TGGUIControl.mm:9:
+oIn file included from /Users/xphere/CODE/proclab/TGGUIControl.h:22:
+o/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]
+o        IBOutlet id *_parent;
+o        ^
+o<built-in>:160:33: note: expanded from macro 'IBOutlet'
+o#define IBOutlet __attribute__((iboutlet))
+o                                ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/xphere/CODE/proclab/TGGUIControl.mm1b124fbe26e4b541^d61b21bf26e4b541^-484"In file included from /Users/xphere/CODE/proclab/TGGUIControl.mm:9:In file included from /Users/xphere/CODE/proclab/TGGUIControl.h:22:/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]        IBOutlet id *_parent;        ^<built-in>:160:33: note: expanded from macro 'IBOutlet'#define IBOutlet __attribute__((iboutlet))                                ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@70"Ivar with 'iboutlet' attribute must be an object type (invalid 'id *')-367273663#18446744073709551615#0#3(2@67"In file included from /Users/xphere/CODE/proclab/TGGUIControl.mm:9:-367273663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@58"file://localhost/Users/xphere/CODE/proclab/TGGUIControl.mm0000000000000000^8#8#8#8#143#0#21"Clang LLVM 1.0 Notice--2@67"In file included from /Users/xphere/CODE/proclab/TGGUIControl.h:22:-367273663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/TGGUIControl.h0000000000000000^21#8#21#8#589#0#21"Clang LLVM 1.0 Notice--2@30"Expanded from macro 'IBOutlet'-367273663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/%3Cbuilt-in%3E0000000000000000^159#32#159#32#4936#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@63"file://localhost/Users/xphere/CODE/proclab/controls/tableview.h0000000000000000^7#1#7#1#15#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@58"file://localhost/Users/xphere/CODE/proclab/TGGUIControl.mm0000000000000000^2830"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGGUIControl.o TGGUIControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGGUIControl.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGGUIControl.dia -c /Users/xphere/CODE/proclab/TGGUIControl.mm -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGGUIControl.o36"D8CE5E49-08E7-478E-976E-017E1BA9D0EB-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGNoiseControl.o /Users/xphere/CODE/proclab/TG_Controls/TGNoiseControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273663.828418
+e367273664.106966
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGNoiseControl.o
+x/Users/xphere/CODE/proclab/TG_Controls/TGNoiseControl.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/TGNoiseControl.mm:10:
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:
+o/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]
+o        IBOutlet id *_parent;
+o        ^
+o<built-in>:160:33: note: expanded from macro 'IBOutlet'
+o#define IBOutlet __attribute__((iboutlet))
+o                                ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/xphere/CODE/proclab/TG_Controls/TGNoiseControl.mm0c94d4bf26e4b541^66841bc026e4b541^-514"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGNoiseControl.mm:10:In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]        IBOutlet id *_parent;        ^<built-in>:160:33: note: expanded from macro 'IBOutlet'#define IBOutlet __attribute__((iboutlet))                                ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@70"Ivar with 'iboutlet' attribute must be an object type (invalid 'id *')-367273664#18446744073709551615#0#3(2@82"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGNoiseControl.mm:10:-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@72"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGNoiseControl.mm0000000000000000^9#8#9#8#177#0#21"Clang LLVM 1.0 Notice--2@82"In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/TGGUIControl.h0000000000000000^21#8#21#8#589#0#21"Clang LLVM 1.0 Notice--2@30"Expanded from macro 'IBOutlet'-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/%3Cbuilt-in%3E0000000000000000^159#32#159#32#4936#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@63"file://localhost/Users/xphere/CODE/proclab/controls/tableview.h0000000000000000^7#1#7#1#15#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@72"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGNoiseControl.mm0000000000000000^2866"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGNoiseControl.o TG_Controls/TGNoiseControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGNoiseControl.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGNoiseControl.dia -c /Users/xphere/CODE/proclab/TG_Controls/TGNoiseControl.mm -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGNoiseControl.o36"D2FB6C7D-DC23-4EF9-92F5-7BC20905EC93-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPerlinControl.o /Users/xphere/CODE/proclab/TG_Controls/TGPerlinControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273664.169641
+e367273664.428205
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPerlinControl.o
+x/Users/xphere/CODE/proclab/TG_Controls/TGPerlinControl.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/TGPerlinControl.mm:2:
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:
+o/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]
+o        IBOutlet id *_parent;
+o        ^
+o<built-in>:160:33: note: expanded from macro 'IBOutlet'
+o#define IBOutlet __attribute__((iboutlet))
+o                                ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/xphere/CODE/proclab/TG_Controls/TGPerlinControl.mmb8942bc026e4b541^9dbb6dc026e4b541^-514"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGPerlinControl.mm:2:In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]        IBOutlet id *_parent;        ^<built-in>:160:33: note: expanded from macro 'IBOutlet'#define IBOutlet __attribute__((iboutlet))                                ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@70"Ivar with 'iboutlet' attribute must be an object type (invalid 'id *')-367273664#18446744073709551615#0#3(2@82"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGPerlinControl.mm:2:-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@73"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGPerlinControl.mm0000000000000000^1#8#1#8#36#0#21"Clang LLVM 1.0 Notice--2@82"In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/TGGUIControl.h0000000000000000^21#8#21#8#589#0#21"Clang LLVM 1.0 Notice--2@30"Expanded from macro 'IBOutlet'-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/%3Cbuilt-in%3E0000000000000000^159#32#159#32#4936#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@63"file://localhost/Users/xphere/CODE/proclab/controls/tableview.h0000000000000000^7#1#7#1#15#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@73"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGPerlinControl.mm0000000000000000^2872"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPerlinControl.o TG_Controls/TGPerlinControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPerlinControl.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPerlinControl.dia -c /Users/xphere/CODE/proclab/TG_Controls/TGPerlinControl.mm -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPerlinControl.o36"1E932061-62D3-4A0E-B8EA-ADDDE91B9B5D-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlainControl.o /Users/xphere/CODE/proclab/TG_Controls/TGPlainControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273662.317604
+e367273662.655494
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlainControl.o
+x/Users/xphere/CODE/proclab/TG_Controls/TGPlainControl.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/TGPlainControl.mm:10:
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:
+o/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]
+o        IBOutlet id *_parent;
+o        ^
+o<built-in>:160:33: note: expanded from macro 'IBOutlet'
+o#define IBOutlet __attribute__((iboutlet))
+o                                ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/xphere/CODE/proclab/TG_Controls/TGPlainControl.mm8e7951be26e4b541^d8f1a7be26e4b541^-514"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGPlainControl.mm:10:In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]        IBOutlet id *_parent;        ^<built-in>:160:33: note: expanded from macro 'IBOutlet'#define IBOutlet __attribute__((iboutlet))                                ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@70"Ivar with 'iboutlet' attribute must be an object type (invalid 'id *')-367273662#18446744073709551615#0#3(2@82"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGPlainControl.mm:10:-367273662#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@72"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGPlainControl.mm0000000000000000^9#8#9#8#176#0#21"Clang LLVM 1.0 Notice--2@82"In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:-367273662#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/TGGUIControl.h0000000000000000^21#8#21#8#589#0#21"Clang LLVM 1.0 Notice--2@30"Expanded from macro 'IBOutlet'-367273662#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/%3Cbuilt-in%3E0000000000000000^159#32#159#32#4936#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@63"file://localhost/Users/xphere/CODE/proclab/controls/tableview.h0000000000000000^7#1#7#1#15#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@72"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGPlainControl.mm0000000000000000^2866"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlainControl.o TG_Controls/TGPlainControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlainControl.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlainControl.dia -c /Users/xphere/CODE/proclab/TG_Controls/TGPlainControl.mm -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlainControl.o36"5209A679-3B2D-49A2-BA0F-B19F054135D9-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlasmaControl.o /Users/xphere/CODE/proclab/TG_Controls/TGPlasmaControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273663.840217
+e367273664.168171
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlasmaControl.o
+x/Users/xphere/CODE/proclab/TG_Controls/TGPlasmaControl.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/TGPlasmaControl.mm:2:
+oIn file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:
+o/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]
+o        IBOutlet id *_parent;
+o        ^
+o<built-in>:160:33: note: expanded from macro 'IBOutlet'
+o#define IBOutlet __attribute__((iboutlet))
+o                                ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/xphere/CODE/proclab/TG_Controls/TGPlasmaControl.mmcc46d7bf26e4b541^2c0e2bc026e4b541^-514"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGPlasmaControl.mm:2:In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]        IBOutlet id *_parent;        ^<built-in>:160:33: note: expanded from macro 'IBOutlet'#define IBOutlet __attribute__((iboutlet))                                ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@70"Ivar with 'iboutlet' attribute must be an object type (invalid 'id *')-367273664#18446744073709551615#0#3(2@82"In file included from /Users/xphere/CODE/proclab/TG_Controls/TGPlasmaControl.mm:2:-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@73"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGPlasmaControl.mm0000000000000000^1#8#1#8#36#0#21"Clang LLVM 1.0 Notice--2@82"In file included from /Users/xphere/CODE/proclab/TG_Controls/../TGGUIControl.h:22:-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/TGGUIControl.h0000000000000000^21#8#21#8#589#0#21"Clang LLVM 1.0 Notice--2@30"Expanded from macro 'IBOutlet'-367273664#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/%3Cbuilt-in%3E0000000000000000^159#32#159#32#4936#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@63"file://localhost/Users/xphere/CODE/proclab/controls/tableview.h0000000000000000^7#1#7#1#15#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@73"file://localhost/Users/xphere/CODE/proclab/TG_Controls/TGPlasmaControl.mm0000000000000000^2872"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlasmaControl.o TG_Controls/TGPlasmaControl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlasmaControl.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlasmaControl.dia -c /Users/xphere/CODE/proclab/TG_Controls/TGPlasmaControl.mm -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/TGPlasmaControl.o36"2E70A38D-009D-45FA-9A35-53258BB43F8E-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/apple_font.o /Users/xphere/CODE/proclab/textgenlib/apple_font.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273663.454390
+e367273663.612220
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/apple_font.o
+x/Users/xphere/CODE/proclab/textgenlib/apple_font.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/xphere/CODE/proclab/textgenlib/apple_font.mm:5:21: warning: 'stringWithCString:' is deprecated [-Wdeprecated-declarations]
+o        NSString  *text = [NSString stringWithCString:str];
+o                           ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/xphere/CODE/proclab/textgenlib/apple_font.mm787b74bf26e4b541^14d09cbf26e4b541^-240"/Users/xphere/CODE/proclab/textgenlib/apple_font.mm:5:21: warning: 'stringWithCString:' is deprecated [-Wdeprecated-declarations]        NSString  *text = [NSString stringWithCString:str];                           ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@34"'stringWithCString:' is deprecated-367273663#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@67"file://localhost/Users/xphere/CODE/proclab/textgenlib/apple_font.mm0000000000000000^4#20#4#20#131#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@67"file://localhost/Users/xphere/CODE/proclab/textgenlib/apple_font.mm0000000000000000^2840"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/apple_font.o textgenlib/apple_font.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/apple_font.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/apple_font.dia -c /Users/xphere/CODE/proclab/textgenlib/apple_font.mm -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/apple_font.o36"A4F30342-DB52-43FA-89FB-FA22BAD8FF26-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/file.o /Users/xphere/CODE/proclab/file.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273663.527419
+e367273663.587356
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/file.o
+x/Users/xphere/CODE/proclab/file.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Compile /Users/xphere/CODE/proclab/file.cpp742887bf26e4b541^c26c96bf26e4b541^---0#0#0#-19%DVTDocumentLocation2@51"file://localhost/Users/xphere/CODE/proclab/file.cpp0000000000000000^2425"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/file.o file.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ayyjoogxhowvmudjqozmmgczejid/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/file.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/file.dia -c /Users/xphere/CODE/proclab/file.cpp -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/file.o36"EDF8E058-CD5C-498F-8029-2E7A4855159B-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/main.o /Users/xphere/CODE/proclab/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s367273661.596666
+e367273661.662008
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/main.o
+x/Users/xphere/CODE/proclab/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Compile /Users/xphere/CODE/proclab/main.mefe798bd26e4b541^558aa9bd26e4b541^---0#0#0#-19%DVTDocumentLocation2@49"file://localhost/Users/xphere/CODE/proclab/main.m0000000000000000^2648"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/main.o main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-dduwahtdvwxgapelphtfnjbwdxjz/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/main.dia -c /Users/xphere/CODE/proclab/main.m -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/main.o36"69747E80-B6BF-48F3-80DA-439CC736B11A-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tableview.o /Users/xphere/CODE/proclab/controls/tableview.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273663.589900
+e367273663.838823
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tableview.o
+x/Users/xphere/CODE/proclab/controls/tableview.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/xphere/CODE/proclab/controls/tableview.mm:1:
+o/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]
+o        IBOutlet id *_parent;
+o        ^
+o<built-in>:160:33: note: expanded from macro 'IBOutlet'
+o#define IBOutlet __attribute__((iboutlet))
+o                                ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/xphere/CODE/proclab/controls/tableview.mm7b2e97bf26e4b541^cafcdbbf26e4b541^-422"In file included from /Users/xphere/CODE/proclab/controls/tableview.mm:1:/Users/xphere/CODE/proclab/controls/tableview.h:8:2: warning: ivar with 'iboutlet' attribute must be an object type (invalid 'id *') [-Winvalid-iboutlet]        IBOutlet id *_parent;        ^<built-in>:160:33: note: expanded from macro 'IBOutlet'#define IBOutlet __attribute__((iboutlet))                                ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@70"Ivar with 'iboutlet' attribute must be an object type (invalid 'id *')-367273663#18446744073709551615#0#2(2@73"In file included from /Users/xphere/CODE/proclab/controls/tableview.mm:1:-367273663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@64"file://localhost/Users/xphere/CODE/proclab/controls/tableview.mm0000000000000000^0#8#0#8#8#0#21"Clang LLVM 1.0 Notice--2@30"Expanded from macro 'IBOutlet'-367273663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/xphere/CODE/proclab/%3Cbuilt-in%3E0000000000000000^159#32#159#32#4936#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@63"file://localhost/Users/xphere/CODE/proclab/controls/tableview.h0000000000000000^7#1#7#1#15#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@64"file://localhost/Users/xphere/CODE/proclab/controls/tableview.mm0000000000000000^2830"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tableview.o controls/tableview.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tableview.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tableview.dia -c /Users/xphere/CODE/proclab/controls/tableview.mm -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tableview.o36"EFA12550-6233-457F-86FA-59104D3DEC78-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgen.o /Users/xphere/CODE/proclab/textgenlib/textgen.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273661.847396
+e367273662.316232
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgen.o
+x/Users/xphere/CODE/proclab/textgenlib/textgen.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/xphere/CODE/proclab/textgenlib/textgen.cppa916d9bd26e4b541^6ff550be26e4b541^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Users/xphere/CODE/proclab/textgenlib/textgen.cpp0000000000000000^2465"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgen.o textgenlib/textgen.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ayyjoogxhowvmudjqozmmgczejid/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgen.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgen.dia -c /Users/xphere/CODE/proclab/textgenlib/textgen.cpp -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgen.o36"0EECF1F4-C817-4AF8-AD83-2BF9D81C9EED-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgenlib.o /Users/xphere/CODE/proclab/textgenlib/textgenlib.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273662.025174
+e367273662.306877
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgenlib.o
+x/Users/xphere/CODE/proclab/textgenlib/textgenlib.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/xphere/CODE/proclab/textgenlib/textgenlib.cppd59606be26e4b541^23a44ebe26e4b541^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/xphere/CODE/proclab/textgenlib/textgenlib.cpp0000000000000000^2483"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgenlib.o textgenlib/textgenlib.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ayyjoogxhowvmudjqozmmgczejid/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgenlib.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgenlib.dia -c /Users/xphere/CODE/proclab/textgenlib/textgenlib.cpp -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textgenlib.o36"4CA51579-A784-49BD-B854-B71E297BD528-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textlib.o /Users/xphere/CODE/proclab/textgenlib/textlib.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273662.657230
+e367273663.123508
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textlib.o
+x/Users/xphere/CODE/proclab/textgenlib/textlib.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/xphere/CODE/proclab/textgenlib/textlib.cpp:499:64: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o                RenderFont(font.p.posX, font.p.posY, font.p.size, font.text, "Verdana", font.p.c, tmpbuf, Txt.h);
+o                                                                             ^
+o/Users/xphere/CODE/proclab/textgenlib/textlib.cpp:502:64: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o                RenderFont(font.p.posX, font.p.posY, font.p.size, font.text, "Courier", font.p.c, tmpbuf, Txt.h);
+o                                                                             ^
+o/Users/xphere/CODE/proclab/textgenlib/textlib.cpp:505:64: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o                RenderFont(font.p.posX, font.p.posY, font.p.size, font.text, "Arial", font.p.c, tmpbuf, Txt.h);
+o                                                                             ^
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/xphere/CODE/proclab/textgenlib/textlib.cppc66da8be26e4b541^abb21fbf26e4b541^-1067"/Users/xphere/CODE/proclab/textgenlib/textlib.cpp:499:64: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]                RenderFont(font.p.posX, font.p.posY, font.p.size, font.text, "Verdana", font.p.c, tmpbuf, Txt.h);                                                                             ^/Users/xphere/CODE/proclab/textgenlib/textlib.cpp:502:64: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]                RenderFont(font.p.posX, font.p.posY, font.p.size, font.text, "Courier", font.p.c, tmpbuf, Txt.h);                                                                             ^/Users/xphere/CODE/proclab/textgenlib/textlib.cpp:505:64: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]                RenderFont(font.p.posX, font.p.posY, font.p.size, font.text, "Arial", font.p.c, tmpbuf, Txt.h);                                                                             ^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@56"Conversion from string literal to 'char *' is deprecated-367273663#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@65"file://localhost/Users/xphere/CODE/proclab/textgenlib/textlib.cpp0000000000000000^498#63#498#63#13249#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-367273663#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@65"file://localhost/Users/xphere/CODE/proclab/textgenlib/textlib.cpp0000000000000000^501#63#501#63#13367#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-367273663#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@65"file://localhost/Users/xphere/CODE/proclab/textgenlib/textlib.cpp0000000000000000^504#63#504#63#13486#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@65"file://localhost/Users/xphere/CODE/proclab/textgenlib/textlib.cpp0000000000000000^2465"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textlib.o textgenlib/textlib.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ayyjoogxhowvmudjqozmmgczejid/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textlib.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textlib.dia -c /Users/xphere/CODE/proclab/textgenlib/textlib.cpp -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/textlib.o36"877CFCE4-EECE-4933-97F1-7E46E92ED268-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tga.o /Users/xphere/CODE/proclab/libs/tga.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273664.429532
+e367273664.478538
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tga.o
+x/Users/xphere/CODE/proclab/libs/tga.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Compile /Users/xphere/CODE/proclab/libs/tga.cppb51a6ec026e4b541^fb957ac026e4b541^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Users/xphere/CODE/proclab/libs/tga.cpp0000000000000000^2429"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tga.o libs/tga.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ayyjoogxhowvmudjqozmmgczejid/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tga.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tga.dia -c /Users/xphere/CODE/proclab/libs/tga.cpp -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/tga.o36"4F5FC81D-CBA5-42D7-8322-650A42B7FC8B-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znl.o /Users/xphere/CODE/proclab/textgenlib/znl.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273663.125690
+e367273663.525192
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znl.o
+x/Users/xphere/CODE/proclab/textgenlib/znl.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/xphere/CODE/proclab/textgenlib/znl.cpp:63:11: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o                ZNT znt("", tglib->dtexgen[i]);
+o                        ^
+o/Users/xphere/CODE/proclab/textgenlib/znl.cpp:112:10: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        ZNT znt("", (tglib->dtexgen[tex_id]));
+o                ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/xphere/CODE/proclab/textgenlib/znl.cpp585420bf26e4b541^fc8986bf26e4b541^-464"/Users/xphere/CODE/proclab/textgenlib/znl.cpp:63:11: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]                ZNT znt("", tglib->dtexgen[i]);                        ^/Users/xphere/CODE/proclab/textgenlib/znl.cpp:112:10: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        ZNT znt("", (tglib->dtexgen[tex_id]));                ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@56"Conversion from string literal to 'char *' is deprecated-367273663#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@61"file://localhost/Users/xphere/CODE/proclab/textgenlib/znl.cpp0000000000000000^62#10#62#10#1341#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-367273663#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@61"file://localhost/Users/xphere/CODE/proclab/textgenlib/znl.cpp0000000000000000^111#9#111#9#2287#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@61"file://localhost/Users/xphere/CODE/proclab/textgenlib/znl.cpp0000000000000000^2441"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znl.o textgenlib/znl.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ayyjoogxhowvmudjqozmmgczejid/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znl.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znl.dia -c /Users/xphere/CODE/proclab/textgenlib/znl.cpp -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znl.o36"3C24AB61-188E-4237-A150-1BB6CC506B96-
+
+CCompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znt.o /Users/xphere/CODE/proclab/textgenlib/znt.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273663.130784
+e367273663.453051
+r1
+xCompileC
+xbuild/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znt.o
+x/Users/xphere/CODE/proclab/textgenlib/znt.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/xphere/CODE/proclab/textgenlib/znt.cpped9d21bf26e4b541^950c74bf26e4b541^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/xphere/CODE/proclab/textgenlib/znt.cpp0000000000000000^2441"CompileC build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znt.o textgenlib/znt.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug -include /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ayyjoogxhowvmudjqozmmgczejid/ProcLab_Prefix.pch -MMD -MT dependencies -MF /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znt.d --serialize-diagnostics /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znt.dia -c /Users/xphere/CODE/proclab/textgenlib/znt.cpp -o /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/znt.o36"1266E536-8C95-4FE7-A109-FBB6DFF3CAA7-
+
+CCopyStringsFile /Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s367273659.877547
+e367273659.882831
+r1
+xCopyStringsFile
+x/Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.strings52bae0bb26e4b541^630ee2bb26e4b541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/xphere/CODE/proclab/English.lproj/InfoPlist.strings0000000000000000^367"CopyStringsFile build/Debug/ProcLab.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd /Users/xphere/CODE/proclab    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/Resources/English.lproj -- English.lproj/InfoPlist.strings36"802D4FB6-F5E3-4C2E-8B41-B92C34AC906A-
+
+CLd /Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/MacOS/ProcLab normal x86_64
+s367273664.789816
+e367273664.870634
+r1
+xLd
+x/Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/MacOS/ProcLab
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Link /Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/MacOS/ProcLab1e54cac026e4b541^2ae4dec026e4b541^---0#0#0#--702"Ld build/Debug/ProcLab.app/Contents/MacOS/ProcLab normal x86_64    cd /Users/xphere/CODE/proclab    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/xphere/CODE/proclab/build/Debug -F/Users/xphere/CODE/proclab/build/Debug -filelist /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/Objects-normal/x86_64/ProcLab.LinkFileList -mmacosx-version-min=10.7 -fobjc-link-runtime -framework Cocoa -o /Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/MacOS/ProcLab36"54AFE2A1-E566-4B34-B34F-F3EE39323CDA-
+
+CProcessInfoPlistFile /Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/Info.plist Info.plist
+s367273659.862723
+e367273659.868571
+r1
+xProcessInfoPlistFile
+x/Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist74f0dcbb26e4b541^4f5cdebb26e4b541^---0#0#0#-19%DVTDocumentLocation2@53"file://localhost/Users/xphere/CODE/proclab/Info.plist0000000000000000^342"ProcessInfoPlistFile build/Debug/ProcLab.app/Contents/Info.plist Info.plist    cd /Users/xphere/CODE/proclab    builtin-infoPlistUtility Info.plist -genpkginfo /Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/Info.plist36"82DCC8BB-B8E5-4F26-9DBB-4EFD8992F36E-
+
+CProcessPCH /Users/xphere/Library/Developer/Xcode/DerivedData/proclab-cvfmkjixjibukzbswfmtezglssar/Index/PrecompiledHeaders/ProcLab_Prefix-anpssmdquajhqpffmeurzwtmbaqr_ast/ProcLab_Prefix.pch.pth ProcLab_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-dduwahtdvwxgapelphtfnjbwdxjz/ProcLab_Prefix.pch.pth ProcLab_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s367273659.903207
+e367273661.541085
+r1
+xProcessPCH
+x/var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-dduwahtdvwxgapelphtfnjbwdxjz/ProcLab_Prefix.pch.pth
+xProcLab_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile ProcLab_Prefix.pchb6a0e7bb26e4b541^4fb18abd26e4b541^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/xphere/CODE/proclab/ProcLab_Prefix.pch0000000000000000^2798"ProcessPCH /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-dduwahtdvwxgapelphtfnjbwdxjz/ProcLab_Prefix.pch.pth ProcLab_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug --serialize-diagnostics /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-dduwahtdvwxgapelphtfnjbwdxjz/ProcLab_Prefix.pch.dia -c /Users/xphere/CODE/proclab/ProcLab_Prefix.pch -o /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-dduwahtdvwxgapelphtfnjbwdxjz/ProcLab_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-dduwahtdvwxgapelphtfnjbwdxjz/ProcLab_Prefix.pch.d36"8314E1F7-3B96-4670-A772-2F6F5B68CD49-
+
+CProcessPCH++ /Users/xphere/Library/Developer/Xcode/DerivedData/proclab-cvfmkjixjibukzbswfmtezglssar/Index/PrecompiledHeaders/ProcLab_Prefix-ecodqtkaqakxsaecyxtzhyuxgkjp_ast/ProcLab_Prefix.pch.pth ProcLab_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/xphere/Library/Developer/Xcode/DerivedData/proclab-cvfmkjixjibukzbswfmtezglssar/Index/PrecompiledHeaders/ProcLab_Prefix-gkxoybmcrhfleqbueglpzxjjiqva_ast/ProcLab_Prefix.pch.pth ProcLab_Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ayyjoogxhowvmudjqozmmgczejid/ProcLab_Prefix.pch.pth ProcLab_Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273661.542483
+e367273661.595287
+r1
+xProcessPCH++
+x/var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ayyjoogxhowvmudjqozmmgczejid/ProcLab_Prefix.pch.pth
+xProcLab_Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile ProcLab_Prefix.pch07078bbd26e4b541^897b98bd26e4b541^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/xphere/CODE/proclab/ProcLab_Prefix.pch0000000000000000^2573"ProcessPCH++ /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ayyjoogxhowvmudjqozmmgczejid/ProcLab_Prefix.pch.pth ProcLab_Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug --serialize-diagnostics /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ayyjoogxhowvmudjqozmmgczejid/ProcLab_Prefix.pch.dia -c /Users/xphere/CODE/proclab/ProcLab_Prefix.pch -o /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ayyjoogxhowvmudjqozmmgczejid/ProcLab_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ayyjoogxhowvmudjqozmmgczejid/ProcLab_Prefix.pch.d36"30C6E925-F35B-4B27-814B-3F924DE998C0-
+
+CProcessPCH++ /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch.pth ProcLab_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s367273659.903789
+e367273662.023070
+r1
+xProcessPCH++
+x/var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch.pth
+xProcLab_Prefix.pch
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile ProcLab_Prefix.pch5281e7bb26e4b541^6f2a06be26e4b541^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/xphere/CODE/proclab/ProcLab_Prefix.pch0000000000000000^2932"ProcessPCH++ /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch.pth ProcLab_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xphere/CODE/proclab    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-generated-files.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-own-target-headers.hmap -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-all-target-headers.hmap -iquote /Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/ProcLab-project-headers.hmap -I/Users/xphere/CODE/proclab/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources/x86_64 -I/Users/xphere/CODE/proclab/build/proclab.build/Debug/ProcLab.build/DerivedSources -F/Users/xphere/CODE/proclab/build/Debug --serialize-diagnostics /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch.dia -c /Users/xphere/CODE/proclab/ProcLab_Prefix.pch -o /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/9z/knrzk90x3rjd082_6yly65r40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ProcLab_Prefix-ejdjofemouopzsaxbgnyadmvwpmu/ProcLab_Prefix.pch.d36"2216EEF8-6662-4E45-B281-0C293FDFEA8A-
+
+CStripNIB /Users/xphere/CODE/proclab/English.lproj/MainMenu.nib
+s367273659.877054
+e367273659.893717
+r1
+xStripNIB
+x/Users/xphere/CODE/proclab/English.lproj/MainMenu.nib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Processing /Users/xphere/CODE/proclab/English.lproj/MainMenu.niba1a0e0bb26e4b541^88d8e4bb26e4b541^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/xphere/CODE/proclab/English.lproj/MainMenu.nib/0000000000000000^417"StripNIB English.lproj/MainMenu.nib    cd /Users/xphere/CODE/proclab    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --strip /Users/xphere/CODE/proclab/build/Debug/ProcLab.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/xphere/CODE/proclab/English.lproj/MainMenu.nib36"3F069616-390C-445C-9D62-0D13A657DEE6-
+
+CTouch /Users/xphere/CODE/proclab/build/Debug/ProcLab.app
+s367273664.879986
+e367273664.888610
+r1
+xTouch
+x/Users/xphere/CODE/proclab/build/Debug/ProcLab.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Touch /Users/xphere/CODE/proclab/build/Debug/ProcLab.appa568e1c026e4b541^d87de3c026e4b541^---0#0#0#--137"Touch build/Debug/ProcLab.app    cd /Users/xphere/CODE/proclab    /usr/bin/touch -c /Users/xphere/CODE/proclab/build/Debug/ProcLab.app36"17405C5A-87E3-4D3D-845D-D2DFC36D2B9C-
+
