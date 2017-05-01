@@ -419,7 +419,7 @@ void Text_generate_line (TEXTURE Txt, T_LINE line, unsigned char *data)
 /////////////////////////////////////////////
 // FONT TEXTURE
 /////////////////////////////////////////////
-void RenderFont(int x, int y, int size, char *str, char *fontname, UC_COLOR3 textcol,
+void RenderFont(int x, int y, int size, char *str, const char *fontname, UC_COLOR3 textcol,
 				unsigned char *cbuf, int w)
 {
 #ifdef __APPLE__

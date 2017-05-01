@@ -9,7 +9,7 @@ class ZNT
 {
 public:
 #ifdef TEXTURE_EDITOR
-	ZNT(char file[], CTextGen &texture);
+	ZNT(const char file[], CTextGen &texture);
 	virtual ~ZNT();
 	char LoadFile(char checkHeader);
 	bool SaveFile();
